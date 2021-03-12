@@ -16,6 +16,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="top" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVk-FQ-eW2">
+                                <rect key="frame" x="-20" y="-20" width="454" height="936"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20210312_084233" translatesAutoresizingMaskIntoConstraints="NO" id="g9e-hn-qS3">
+                                        <rect key="frame" x="0.0" y="0.0" width="435" height="917"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="center" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="NZo-nb-lrJ">
+                                        <rect key="frame" x="103" y="163" width="249" height="610"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiX-Je-qzg">
+                                                <rect key="frame" x="0.0" y="0.0" width="249" height="42"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                                <state key="normal" title="Food">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="foodButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="F4s-ET-Dxc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQx-zh-f6C">
+                                                <rect key="frame" x="0.0" y="142" width="249" height="42"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                                <state key="normal" title="Favourite Warlord">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="warLordButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUP-dR-pMi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYg-lK-bQe">
+                                                <rect key="frame" x="0.0" y="284" width="249" height="42"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                                <state key="normal" title="Favourite Saudi King">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="saudiButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8o-DE-IQd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckR-6P-djg">
+                                                <rect key="frame" x="0.0" y="426" width="249" height="42"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                                <state key="normal" title="Favourite Nuke">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="nukeButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="IXP-zG-c4i"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmM-3L-Dfb">
+                                                <rect key="frame" x="0.0" y="568" width="249" height="42"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                                <state key="normal" title="Favourite Teacher">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="teacherButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="API-yo-iUE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="NZo-nb-lrJ" secondAttribute="trailing" constant="102" id="CsJ-rD-mnR"/>
+                                    <constraint firstAttribute="bottom" secondItem="NZo-nb-lrJ" secondAttribute="bottom" constant="163" id="b9w-09-V7w"/>
+                                    <constraint firstItem="NZo-nb-lrJ" firstAttribute="leading" secondItem="vVk-FQ-eW2" secondAttribute="leading" constant="103" id="bXQ-L3-60E"/>
+                                    <constraint firstItem="NZo-nb-lrJ" firstAttribute="top" secondItem="vVk-FQ-eW2" secondAttribute="top" constant="163" id="hUM-4p-dp5"/>
+                                </constraints>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY FAVORITES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noS-1R-BlL">
                                 <rect key="frame" x="62" y="44" width="291" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
@@ -23,76 +99,12 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemBackgroundColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="center" axis="vertical" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="NZo-nb-lrJ">
-                                <rect key="frame" x="83" y="143" width="249" height="610"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TiX-Je-qzg">
-                                        <rect key="frame" x="0.0" y="0.0" width="249" height="42"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                        <state key="normal" title="Food">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="foodButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="F4s-ET-Dxc"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQx-zh-f6C">
-                                        <rect key="frame" x="0.0" y="142" width="249" height="42"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                        <state key="normal" title="Favourite Warlord">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="warLordButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUP-dR-pMi"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AYg-lK-bQe">
-                                        <rect key="frame" x="0.0" y="284" width="249" height="42"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                        <state key="normal" title="Favourite Saudi King">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="saudiButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="S8o-DE-IQd"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckR-6P-djg">
-                                        <rect key="frame" x="0.0" y="426" width="249" height="42"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                        <state key="normal" title="Favourite Nuke">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="nukeButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="IXP-zG-c4i"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmM-3L-Dfb">
-                                        <rect key="frame" x="0.0" y="568" width="249" height="42"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
-                                        <state key="normal" title="Favourite Teacher">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="teacherButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="API-yo-iUE"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="noS-1R-BlL" secondAttribute="trailing" constant="41" id="OqE-ch-STX"/>
                             <constraint firstItem="noS-1R-BlL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="Riz-CC-kW3"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="NZo-nb-lrJ" secondAttribute="bottom" constant="109" id="VbJ-Q9-YJl"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NZo-nb-lrJ" secondAttribute="trailing" constant="62" id="Y6a-s2-byw"/>
-                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="YUn-RG-hOE"/>
-                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="99" id="fWa-Qg-LYR"/>
                             <constraint firstAttribute="bottomMargin" secondItem="noS-1R-BlL" secondAttribute="bottom" constant="770" id="rSF-VP-SJK"/>
                             <constraint firstItem="noS-1R-BlL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="rTM-lz-CUj"/>
                         </constraints>
@@ -104,6 +116,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="20210312_084233" width="2988" height="5312"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
