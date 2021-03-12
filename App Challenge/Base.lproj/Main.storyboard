@@ -19,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY FAVORITES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noS-1R-BlL">
                                 <rect key="frame" x="62" y="44" width="291" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemBackgroundColor"/>
                             </label>
@@ -87,12 +87,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="99" id="6Fm-9f-ZSU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="noS-1R-BlL" secondAttribute="trailing" constant="41" id="OqE-ch-STX"/>
                             <constraint firstItem="noS-1R-BlL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="42" id="Riz-CC-kW3"/>
-                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="S68-lf-Md2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="NZo-nb-lrJ" secondAttribute="trailing" constant="62" id="ThF-oW-AhX"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="NZo-nb-lrJ" secondAttribute="bottom" constant="109" id="WS1-YY-5dY"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="NZo-nb-lrJ" secondAttribute="bottom" constant="109" id="VbJ-Q9-YJl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NZo-nb-lrJ" secondAttribute="trailing" constant="62" id="Y6a-s2-byw"/>
+                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="YUn-RG-hOE"/>
+                            <constraint firstItem="NZo-nb-lrJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="99" id="fWa-Qg-LYR"/>
                             <constraint firstAttribute="bottomMargin" secondItem="noS-1R-BlL" secondAttribute="bottom" constant="770" id="rSF-VP-SJK"/>
                             <constraint firstItem="noS-1R-BlL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="rTM-lz-CUj"/>
                         </constraints>
@@ -109,6 +109,9 @@
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
